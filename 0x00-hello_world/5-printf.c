@@ -1,7 +1,6 @@
 #include <stdio.h>
-int main(void)
-	/* Using printf command to display text*/
-{
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-		return 0;
+/* Displaying with printf*/
+int main(void) {
+    printf("With proper grammar, but the outcome is a piece of art,\n");
+    return 0;
 }
