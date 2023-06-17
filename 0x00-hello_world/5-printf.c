@@ -1,5 +1,11 @@
 #include <stdio.h>
-/* Displaying with printf*/
+
+/**
+ * main - this function is to display using the printf cmd
+ * Return : does not eturn any value
+ * Displaying with printf
+ **/
+
 int main(void)
 {
 /* Printf command use */
