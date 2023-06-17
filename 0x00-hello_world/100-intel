@@ -1,5 +1,2 @@
 #!/bin/bash
-
-read -p "Enter the name of the C file: " CFILE
-
 gcc -S -masm=intel $CFILE -o ${CFILE%.c}.s
