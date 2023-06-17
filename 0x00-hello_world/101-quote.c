@@ -8,8 +8,7 @@
 int main(void)
 {
 int len = 30;
-char str[len]
-    
+char str[LEN] = "and that piece of art is useful";
 str[0] = 'a';
 str[1] = 'n';
 str[2] = 'd';
@@ -42,5 +41,5 @@ str[28] = 'f';
 str[29] = 'u';
 
 write(2, str, len);
-return 1;
+return (1);
 }
