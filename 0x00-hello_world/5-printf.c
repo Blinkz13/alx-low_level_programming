@@ -2,7 +2,7 @@
 
 /**
  * main - this function is to display using the printf cmd
- * Return 0 : does not eturn any value
+ * Return: 0 does not eturn any value
  * Displaying with printf
  **/
 
