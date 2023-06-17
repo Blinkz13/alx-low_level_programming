@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+/**
+ * main -  display sizes of variables types
+ * Return: 0 returns no value
+ **/
+
 int main(void)
 /* Main function*/
 {
