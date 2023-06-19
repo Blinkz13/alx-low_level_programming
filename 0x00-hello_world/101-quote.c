@@ -9,9 +9,6 @@
 int main(void)
 {
 char str[59] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-int len = sizeof(str) - 1;
-write(2, str, len);
-fprintf(stderr, "(%d chars long)n", len);
-fprintf(stderr, "[stderr]: n(0 chars long)n");
+write(2,str,59);
 return (1);
 }
