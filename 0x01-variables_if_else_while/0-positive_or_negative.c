@@ -7,7 +7,7 @@
 /**
  * main - displaying a number stored in the variable n
  * and using if statment to check for conditions
- * Retur: 0 returns no value
+ * Return: 0 returns no value
  **/
 
 int main(void)
