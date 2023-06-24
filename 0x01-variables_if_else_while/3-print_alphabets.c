@@ -2,8 +2,8 @@
 
 /**
  * main - print alphabets in bother upper and lower case
- * lowerCase() - print lower case alphabets
- * upperCase() - print upper case alphabets
+ * lowerCase - print lower case alphabets
+ * upperCase - print upper case alphabets
  * Return: 0
  **/
 
