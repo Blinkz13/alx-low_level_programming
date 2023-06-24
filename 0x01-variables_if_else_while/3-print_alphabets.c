@@ -2,12 +2,14 @@
 
 /**
  * main - print alphabets in bother upper and lower case
+ * lowerCase() - print lower case alphabets
+ * upperCase() - print upper case alphabets
  * Return: 0
  **/
 
-int main(void)
+void lowerCase(void)
 {
-	char letter = 'a';
+char letter = 'a';
 
 	while (letter <= 'z')
 	{
@@ -15,8 +17,11 @@ int main(void)
 	letter++;
 	}
 	putchar ('\n');
+}
 
-	char letterA = 'A';
+void upperCase(void)
+{
+char letterA = 'A';
 
 	while (letterA <= Z)
 	{
@@ -24,5 +29,11 @@ int main(void)
 	letterA++;
 	}
 	putchar('\n');
+}
+
+int main(void)
+{
+	lowerCase();
+	upperCase();
 	return (0);
 }
