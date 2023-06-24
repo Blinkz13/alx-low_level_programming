@@ -23,7 +23,7 @@ void upperCase(void)
 {
 char letterA = 'A';
 
-	while (letterA <= Z)
+	while (letterA <= 'Z')
 	{
 	putchar(letterA);
 	letterA++;
