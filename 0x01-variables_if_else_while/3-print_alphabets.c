@@ -16,7 +16,6 @@ char letter = 'a';
 	putchar(letter);
 	letter++;
 	}
-	putchar ('\n');
 }
 
 void upperCase(void)
