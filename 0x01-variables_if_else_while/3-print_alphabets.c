@@ -2,12 +2,12 @@
 
 /**
  * main - print alphabets in bother upper and lower case
- * lowerCase - print lower case alphabets
- * upperCase - print upper case alphabets
  * Return: 0
  **/
 
-void lowerCase(void)
+/* lowerCase - print lower case letters */
+
+lowerCase(void)
 {
 char letter = 'a';
 
@@ -18,7 +18,9 @@ char letter = 'a';
 	}
 }
 
-void upperCase(void)
+/* upperCase - print upper case letters */
+
+upperCase(void)
 {
 char letterA = 'A';
 
