@@ -5,24 +5,17 @@
  * Return: 0
  **/
 
-/* lowerCase - print lower case letters */
-
-lowerCase(void)
+int main(void)
 {
-char letter = 'a';
+	char letter = 'a';
 
 	while (letter <= 'z')
 	{
 	putchar(letter);
 	letter++;
-	}
-}
+	};
 
-/* upperCase - print upper case letters */
-
-upperCase(void)
-{
-char letterA = 'A';
+	char letterA = 'A';
 
 	while (letterA <= 'Z')
 	{
@@ -30,11 +23,5 @@ char letterA = 'A';
 	letterA++;
 	}
 	putchar('\n');
-}
-
-int main(void)
-{
-	lowerCase();
-	upperCase();
 	return (0);
 }
