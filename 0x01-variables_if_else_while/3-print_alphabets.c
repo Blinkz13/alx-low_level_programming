@@ -15,12 +15,12 @@ int main(void)
 	letter++;
 	};
 
-	char letter = 'A';
+	char alpha = 'A';
 
-	while (letter <= 'Z')
+	while (alpha <= 'Z')
 	{
-	putchar(letterA);
-	letterA++;
+	putchar(alpha);
+	alpha++;
 	}
 	putchar('\n');
 	return (0);
