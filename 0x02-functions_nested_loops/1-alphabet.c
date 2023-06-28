@@ -11,15 +11,8 @@ int _putchar(char c)
     return (unsigned char)c;
 }
 
-void print_alphabet(void)
-{
-char letter = 'a';
-while (letter <= 'z')
-{
-_putchar(letter++);
-}
-_putchar('\n');
-}
+void print_alphabet(void);
+
 
 int main(void)
 	{
@@ -29,3 +22,13 @@ int main(void)
 
 		return (0);
 	}
+
+void print_alphabet(void)
+{
+char letter = 'a';
+while (letter <= 'z')
+{
+_putchar(letter++);
+}
+_putchar('\n');
+}
