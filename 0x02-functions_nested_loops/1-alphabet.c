@@ -5,9 +5,8 @@
  * Return: 0
  */
 
-int _putchar(char c) {
-    // Your implementation of _putchar goes here
-    // For example, you can use printf to output the character
+int _putchar(char c)
+{
     printf("%c", c);
     return (unsigned char)c;
 }
